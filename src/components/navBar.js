@@ -1,4 +1,3 @@
-import React from "react"
 import "./styles/navBar.css"
 
 function NavBar() {
@@ -27,7 +26,11 @@ function NavDivider() {
 
 function NavItem({name}) {
     return (
-        <li className="nav-item">{name}</li>
+        <li className="nav-item">
+            <a href={"#"+name}>
+                {name}
+            </a>
+        </li>
     );
 }
 

@@ -1,72 +1,38 @@
 @import "../../styles.css";
 
 .nav-container {
+	width: 500px;
     margin: 0;
     display: flex;
-	justify-content: center;
 	align-items: center;
-    border-style: solid;
+	border-style: solid;
 }
 
 .nav-bar {
-    border-style: solid;
-	width: 500px;
-	height: 40px;
-	padding-left: 0%;
-	padding-right: 0%;
-    margin-top: 20px;
-	background: red;
-	box-shadow: 0 4px 5px -2px gray;
+	display: flex;
 }
 
 .nav-list {
-    border-style: solid;
     width: 500px;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    margin: 0;
     padding: 0;
 }
 
-/* .nav-bar {
-	width: 800px;
-	height: 40px;
-	padding-left: 0%;
-	padding-right: 0%;
-    margin-top: 20px;
-	background: #fff;
-	box-shadow: 0 4px 5px -2px gray;
-	border-radius: 40px;
-} */
-
-/* .nav-list {
-    border-style: solid;
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-    list-style-position: outside;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 19px;
+.nav-divider {
+	font-size: 20px;
 }
 
 .nav-item {
-    margin: 0;
-    border-style: solid;
-    text-decoration: none;
-    color: pink;
-    font-weight: bold;
-    font-size: 120%;
+	font-size: 20px;
 }
 
-.nav-divider {
-    border-style: solid;
-	display: flex;
-	justify-content: space-between;
-	list-style: none;
-    list-style-position: outside;
-	align-items: center;
-} */
+.nav-item a {
+	color: black;
+	text-decoration: none;
+  }
 
+.nav-item a:hover {
+	color: var(--link-color);
+  }
