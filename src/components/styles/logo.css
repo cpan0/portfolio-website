@@ -1,21 +1,19 @@
 .logo-container {
-    width: 100px;
-	height: 100px;
     margin: 0;
     padding: 0;
     display: flex;
 	justify-content: left;
     align-items: center;
-    border-style: solid;
 }
 
 .logo {
+    width: 80px;
+	height: 80px;
 	display: flex;
+
 }
 
 .logoImg {
-    width: 100px;
-	height: 100px;
     border-radius: 50%;
     border-style: solid;
     border-width: thin;

@@ -5,7 +5,6 @@
     margin: 0;
     display: flex;
 	align-items: center;
-	border-style: solid;
 }
 
 .nav-bar {
@@ -21,11 +20,11 @@
 }
 
 .nav-divider {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .nav-item {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .nav-item a {
