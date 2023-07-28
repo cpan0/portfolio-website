@@ -1,19 +1,35 @@
-import "./App.css"
+// import {createContext, useState} from "react"
+import {useColorScheme} from "react-native"
+import {ThemeProvider} from 'styled-components';
+import {themes} from "./styles";
+
 import Header from "./components/header"
+import Homepage from "./pages/homepage";
+
+import "./App.css"
+
+// const ModeContext = createContext();
+
 
 function App() {
+
+  const colorScheme = useColorScheme();
+
   return (
-    <div className="App">
-      <div className="page-content">
-        <Header/>
-        <p>homepage</p>
-        <p>about</p>
-        <p>projects</p>
-        <p>contact</p>
-        <p>footer</p>
-        
+    <ThemeProvider theme={colorScheme === 'dark' ? themes["dark"] : themes["light"]}>
+      <div className="App">
+        <div className="page-content">
+
+          <Header/>
+          <Homepage/>
+          <p>{colorScheme}</p>
+          <p>projects</p>
+          <p>contact</p>
+          <p>footer</p>
+          
+        </div>
       </div>
-    </div>
+     </ThemeProvider>
   );
 }
 

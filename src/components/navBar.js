@@ -2,12 +2,14 @@ import "./styles/navBar.css"
 
 function NavBar() {
     return (
-        <div className="nav-container">                <ul className="nav-list">
+        <div className="nav-container">                
+            <ul className="nav-list">
                 <NavItem name={"Home"}/>
                 <NavDivider/>
                 <NavItem name={"About"}/>
                 <NavDivider/>
-                <NavItem name={"Projects"}/>                    <NavDivider/>
+                <NavItem name={"Projects"}/>                    
+                <NavDivider/>
                 <NavItem name={"Contact"}/>
                 </ul>
         </div>

@@ -3,6 +3,7 @@
 .App {
   background-color: var(--app-color);
 }
+
 .page-content {
   min-width:fit-content;
   width: 1000px;

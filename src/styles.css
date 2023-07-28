@@ -1,4 +1,4 @@
-:root {
+.lightTheme {
 	/* ------- background colors ------- */
 	--app-color: #FAFAFA;
     --page-color: #FFFFFF;
@@ -17,4 +17,25 @@
 	--secondary-font: "Roboto", sans-serif;
 	/* --------------------- */
 }
+
+.darkTheme {
+	/* ------- background colors ------- */
+	--app-color: #050505;
+	--page-color: #000000;
+	/* ---------------------- */
+
+	/* ------- colors ------- */
+	--primary-color: #D8D8D5;
+	--secondary-color: #9A9A92;
+	--tertiary-color: #53534B;
+	--quaternary-color: #1B1B18;
+	--link-color: #EB4759;
+	/* ---------------------- */
+
+	/* ------- fonts ------- */
+	--primary-font: "Heebo", sans-serif;
+	--secondary-font: "Roboto", sans-serif;
+	/* --------------------- */
+}
+
 
