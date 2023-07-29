@@ -9,7 +9,8 @@ function Header() {
             <div className="logo">
                 <Logo/>
             </div>
-            <div className="navBar">                    <NavBar/>     
+            <div className="navBar">
+                <NavBar/>     
             </div>
         </div>
     )

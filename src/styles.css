@@ -1,5 +1,5 @@
-:root[data-theme= "light"] {
-	color-scheme: "light";
+.lightTheme {
+	color-scheme: light;
 	/* ------- background colors ------- */
 	--app-color: #FAFAFA;
     --page-color: #FFFFFF;
@@ -19,8 +19,8 @@
 	/* --------------------- */
 }
 
-:root[data-theme= "dark"] {
-	color-scheme: "dark";
+.darkTheme {
+	color-scheme: dark;
 	/* ------- background colors ------- */
 	--app-color: #050505;
 	--page-color: #000000;
