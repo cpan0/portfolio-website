@@ -1,5 +1,14 @@
-.lightTheme {
+:root {
 	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+	}
+}
+
+.lightTheme {
 	/* ------- background colors ------- */
 	--app-color: #FAFAFA;
     --page-color: #FFFFFF;
@@ -20,7 +29,6 @@
 }
 
 .darkTheme {
-	color-scheme: dark;
 	/* ------- background colors ------- */
 	--app-color: #050505;
 	--page-color: #000000;

@@ -1,5 +1,6 @@
 import Logo from "./logo"
 import NavBar from "./navBar"
+import { ToggleTheme } from "../themeToggle"
 
 import "./styles/header.css"
 
@@ -11,6 +12,9 @@ function Header() {
             </div>
             <div className="navBar">
                 <NavBar/>     
+            </div>
+            <div className="themeToggleButton">
+                <ToggleTheme/>     
             </div>
         </div>
     )

@@ -4,33 +4,34 @@ import { useColorScheme } from "react-native";
 const ThemeContext = createContext();
 
 function ThemeWrapper({ children }) {
-    const initTheme = useColorScheme() === "light" ? "lightTheme" : "darkTheme";
-    const [theme, setTheme] = useState(initTheme);
+    const initColorScheme = useColorScheme() === "light" ? "light" : "dark";
+    const [colorScheme, setColorScheme] = useState(initColorScheme);
 
-    const applyTheme = (newTheme) => { 
-    document.getElementById('theme-wrapper').className = newTheme;
-    setTheme(newTheme);
+    const applyColorScheme = (newColorScheme) => { 
+    document.getElementById('theme-wrapper').className = newColorScheme+"Theme";
+    setColorScheme(newColorScheme);
   };
   
     return (
-      <ThemeContext.Provider value={{ theme, applyTheme }}>
+      <ThemeContext.Provider value={{ colorScheme, applyColorScheme }}>
         {children}
       </ThemeContext.Provider>
     );
 };
 
 function ToggleTheme() {
-    const { theme, applyTheme } = useContext(ThemeContext);
-  
-    const altTheme = theme === "lightTheme" ? "darkTheme" : "lightTheme";
+    const { colorScheme, applyColorScheme } = useContext(ThemeContext);
+
+    const altColorScheme = colorScheme === "light" ? "dark" : "light";
   
     const toggle = () => {
-        applyTheme(altTheme);
+      applyColorScheme(altColorScheme);
+        document.documentElement.style.setProperty("color-scheme", altColorScheme);
     };
   
     return (
         <div className="toggle-theme"> 
-            <button onClick={toggle}>Go {altTheme}</button> 
+            <button onClick={toggle}>Go {altColorScheme}</button> 
         </div>
     );
 };
