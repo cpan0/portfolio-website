@@ -17,5 +17,5 @@
     border-radius: 50%;
     border-style: solid;
     border-width: thin;
-    border-color: rgba(0, 0, 0, 0.1);
+    border-color: var(--shadow-color);
 }

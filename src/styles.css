@@ -9,6 +9,7 @@
 }
 
 .lightTheme {
+	transition: 0.4s ease-in-out;
 	/* ------- background colors ------- */
 	--app-color: #FAFAFA;
     --page-color: #FFFFFF;
@@ -20,6 +21,7 @@
 	--tertiary-color: #acacb4;
 	--quaternary-color: #e4e4e7;
 	--link-color: #14b8a6;
+	--shadow-color: rgba(0, 0, 0, 0.1);
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
@@ -29,6 +31,7 @@
 }
 
 .darkTheme {
+	transition: 0.4s ease-in-out;
 	/* ------- background colors ------- */
 	--app-color: #050505;
 	--page-color: #000000;
@@ -40,6 +43,7 @@
 	--tertiary-color: #53534B;
 	--quaternary-color: #1B1B18;
 	--link-color: #EB4759;
+	--shadow-color: rgba(255, 255, 255, 0.1);
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
