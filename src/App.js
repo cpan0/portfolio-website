@@ -2,7 +2,7 @@ import { useColorScheme } from "react-native";
 import { ThemeWrapper } from "./components/themeToggle";
 
 import Header from "./components/header"
-import Homepage from "./pages/homepage";
+import Homepage from "./pages/home";
 import Footer from "./components/footer"
 
 import "./App.css"
@@ -21,7 +21,7 @@ function App() {
             <p>projects</p>
             {/* <p>{colorScheme}</p> */}
             <p>contact</p>
-            {/* <Footer/> */}
+            <Footer/>
           </div>
         </div>
       </div>
