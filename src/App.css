@@ -2,14 +2,36 @@
 
 .App {
   transition: 0.4s ease-in-out;
+  width: 100vw;
   background-color: var(--app-color);
+  display: flex;
+  justify-content: center;
 }
 
 .page-content {
   transition: 0.4s ease-in-out;
   min-width:fit-content;
   width: 1000px;
-  margin: auto;
+  margin-left: 25%;
+  margin-right: 25%;
   background-color: var(--page-color);
   box-shadow: 0px 2px 10px var(--shadow-color);
+}
+
+@font-face {
+  font-family: 'JetBrainsMono-Light';
+  src: local('JetBrainsMono-Light'),
+       url('./assets/fonts/JetBrainsMono-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrainsMono-LightItalic';
+  src: local('JetBrainsMono-LightItalic'),
+       url('./assets/fonts/JetBrainsMono-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrainsMono-SemiBold';
+  src: local('JetBrainsMono-SemiBold'),
+       url('./assets/fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
 }

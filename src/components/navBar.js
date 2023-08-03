@@ -4,13 +4,13 @@ function NavBar() {
     return (
         <div className="nav-container">                
             <ul className="nav-list">
-                <NavItem name={"Home"}/>
+                <NavItem name={"HOME"}/>
                 <NavDivider/>
-                <NavItem name={"About"}/>
+                <NavItem name={"ABOUT"}/>
                 <NavDivider/>
-                <NavItem name={"Projects"}/>                    
+                <NavItem name={"PROJECTS"}/>                    
                 <NavDivider/>
-                <NavItem name={"Contact"}/>
+                <NavItem name={"CONTACT"}/>
                 </ul>
         </div>
     );

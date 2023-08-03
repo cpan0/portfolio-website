@@ -20,16 +20,17 @@
 }
 
 .nav-divider {
-  color: var(--link-color);
 	font-size: 18px;
+  font-family: JetBrainsMono-Light;
 }
 
 .nav-item {
 	font-size: 18px;
+  font-family: JetBrainsMono-SemiBold;
 }
 
 .nav-item a {
-	color: pink;
+  color: pink;
 	text-decoration: none;
   }
 

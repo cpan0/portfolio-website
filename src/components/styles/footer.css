@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+.footer {
+    text-align: center;
+    font-family: JetBrainsMono-Light;
+    border-style: solid;
+}

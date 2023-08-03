@@ -1,6 +1,6 @@
 import Logo from "./logo"
 import NavBar from "./navBar"
-import { ToggleTheme } from "../themeToggle"
+import { ToggleTheme } from "./themeToggle"
 
 import "./styles/header.css"
 
