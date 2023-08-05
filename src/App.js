@@ -4,7 +4,8 @@ import { ThemeWrapper } from "./components/themeToggle";
 import Header from "./components/header"
 import Homepage from "./pages/homepage";
 import Aboutpage from "./pages/about";
-import Footer from "./components/footer"
+import Projectspage from "./pages/projects";
+import Footer from "./components/footer";
 
 import "./App.css"
 
@@ -20,8 +21,7 @@ function App() {
             <Header/>
             <Homepage/>
             <Aboutpage/>
-            <p>projects</p>
-            {/* <p>{colorScheme}</p> */}
+            <Projectspage/>
             <p>contact</p>
             <Footer/>
           </div>
