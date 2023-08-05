@@ -1,0 +1,11 @@
+.aboutpage-container {
+    display: flex;
+    justify-content: left;
+    /* border-style: solid; */
+}
+
+.aboutCard {
+    margin-left: 50px;
+    margin-top: 50px;
+    /* border-style: solid; */
+}

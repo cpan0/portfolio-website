@@ -14,7 +14,7 @@ function AboutCard({ title, subtitle, description }) {
 
 function Aboutpage() {
     return (
-        <div className="about-containter">
+        <div className="aboutpage-container">
             <AboutCard title={Education.title} subtitle={Education.subtitle} description={Education.description}/>
         </div>
 
