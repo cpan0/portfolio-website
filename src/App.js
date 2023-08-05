@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeWrapper>
       <div id="theme-wrapper" className={colorScheme+"Theme"}>
-        <div className="App">
+        <div className="App" id="Home">
           <div className="page-content">
             <Header/>
             <Homepage/>

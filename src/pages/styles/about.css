@@ -1,11 +1,35 @@
 .aboutpage-container {
     display: flex;
+    flex-direction: column;
     justify-content: left;
-    /* border-style: solid; */
+    margin-top: 50px;
+    border-style: solid;
+}
+
+.page-title {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-family: JetBrainsMono-SemiBold;
+    border-style: solid;
 }
 
 .aboutCard {
     margin-left: 50px;
-    margin-top: 50px;
-    /* border-style: solid; */
+    margin-right: 50px;
+    border-style: solid;
+}
+
+.about-title {
+    font-size: 26px;
+    font-family: JetBrainsMono-SemiBold;
+}
+
+.about-subtitle {
+    font-size: 20px;
+    font-family: JetBrainsMono-Light;
+}
+
+.about-description {
+    font-family: JetBrainsMono-Light;
 }
